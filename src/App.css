@@ -1,7 +1,12 @@
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background: #f4f4f4;
+  background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+  background-size: cover;       /* Make image cover full screen */
+  background-position: center;  /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating */
+  height: 100vh;                /* Ensure full height of viewport */
+  margin: 0;                    /* Remove default body margin */
+  font-family: Arial, sans-serif;
+  color: white;                 /* Text color over dark image */
 }
 
 .container {
@@ -53,11 +58,15 @@ button:hover {
 }
 
 .journal-entry {
-  background: #f9f9f9;
+  background: #beddff;
   padding: 0.75rem;
   border-radius: 6px;
   margin-bottom: 0.5rem;
   border-left: 4px solid #007bff;
+}
+
+.journal-entry p {
+  color: #003975;
 }
 
 h2 {
