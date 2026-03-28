@@ -28,8 +28,7 @@ body {
 
 .page-section.active { display: flex; }
 
-#dashboard { justify-content: center; }
-#projects, #goals { justify-content: flex-start; padding-top: 2.5rem; }
+#dashboard, #projects, #goals { justify-content: flex-start; padding-top: 2.5rem; }
 
 /* ── Glass panel ────────────────────────────────────────── */
 .glass-panel {
